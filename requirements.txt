@@ -1,6 +1,7 @@
-joblib
-matplotlib
+streamlit
 pandas
+pickle5
+matplotlib
 seaborn
 nltk
-streamlit
+scikit-learn
