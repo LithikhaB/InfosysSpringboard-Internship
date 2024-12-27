@@ -3,5 +3,6 @@ pandas
 numpy
 joblib
 matplotlib
+seaborn
 nltk
 scikit-learn
