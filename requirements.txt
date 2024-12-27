@@ -3,4 +3,6 @@ pandas==2.2.3
 numpy==2.2.1
 joblib==1.4.2
 scikit-learn==1.2.0
-nltk==3.8.1
+matplotlib
+setuptools>=64.0.0
+wheel
