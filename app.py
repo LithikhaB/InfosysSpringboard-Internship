@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
-#import matplotlib.pyplot as plt
-#import seaborn as sns
+import matplotlib.pyplot as plt
+import seaborn as sns
 import nltk
 import re
 import string
@@ -64,7 +64,7 @@ if st.sidebar.button("Analyze Review"):
             st.error(f"An error occurred during prediction: {e}")
     else:
         st.warning("Please enter a review to analyze.")
-'''
+
 # Data insights section
 st.header("Data Insights")
 
@@ -78,4 +78,4 @@ if 'sentiment' in data.columns:
     st.pyplot(fig)
 else:
     st.error("Sentiment column not found in the dataset.")
-'''
+
