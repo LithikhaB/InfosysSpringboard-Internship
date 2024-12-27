@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
 import nltk
@@ -23,8 +23,8 @@ def tokenizer(txt):
 
 # Load the model and vectorizer
 try:
-    vectorizer = joblib.load('vectorizer.pkl')  # Ensure the correct filename
-    model = joblib.load('model.pkl')  # Ensure the correct filename
+    vectorizer = pickle.load('vectorizer.pkl')  # Ensure the correct filename
+    model = pickle.load('model.pkl')  # Ensure the correct filename
     st.success("Model and vectorizer loaded successfully.")
 except FileNotFoundError as e:
     st.error(f"Error loading model or vectorizer: {e}")
