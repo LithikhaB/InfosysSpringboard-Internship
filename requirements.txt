@@ -1,8 +1,6 @@
 streamlit
 pandas
-pickle5
-matplotlib
-seaborn
-nltk
+numpy
+joblib
 scikit-learn
-pickle5==0.0.12
+matplotlib.pyplot
