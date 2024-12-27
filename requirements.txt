@@ -4,3 +4,4 @@ numpy
 joblib
 matplotlib
 nltk
+scikit-learn
