@@ -64,7 +64,7 @@ if st.sidebar.button("Analyze Review"):
             st.error(f"An error occurred during prediction: {e}")
     else:
         st.warning("Please enter a review to analyze.")
-
+'''
 # Data insights section
 st.header("Data Insights")
 
@@ -78,3 +78,4 @@ if 'sentiment' in data.columns:
     st.pyplot(fig)
 else:
     st.error("Sentiment column not found in the dataset.")
+'''
