@@ -5,3 +5,4 @@ matplotlib
 seaborn
 nltk
 scikit-learn
+pickle5==0.0.12
