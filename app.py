@@ -1,4 +1,3 @@
-subprocess.run(["bash", "setup.sh"], check=True)
 import streamlit as st
 import pandas as pd
 import joblib
@@ -8,9 +7,11 @@ import nltk
 import re
 import string
 
+
 # Ensure NLTK resources are available
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Set NLTK data directory (if needed)
 nltk_data_dir = 'd:\\apps\\Anaconda\\envs\\myenv\\nltk_data'
